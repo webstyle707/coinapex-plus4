@@ -50,3 +50,10 @@ const hiddenMenu = ()=>{
   btnhide.display = "none";
   menu.transition = "all 1s ease";
 }
+
+
+
+function url() {
+  fbq("track", "Purchase");
+  location.href = "https://chat.whatsapp.com/DEwTmeThw93BqGjowUxCfE";
+}
